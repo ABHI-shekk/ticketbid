@@ -15,7 +15,7 @@ export default function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // 🔐 Simple demo auth (replace with API later)
+    // Simple demo auth (replace with API later)
     if (email === "user@example.com" && password === "password123") {
       localStorage.setItem("auth", "true");
       navigate('/home');
